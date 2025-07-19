@@ -29,6 +29,9 @@ __pycache__/
 # Claude Code files
 .claude/
 
+# Python Environment (keep only MATLAB)
+Python_Environment/
+
 # OS generated files
 .DS_Store
 .DS_Store?

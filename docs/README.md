@@ -1,6 +1,6 @@
 # Industrial Machinery Anomaly Detection using 3-Axis Vibration Data
 
-This project implements anomaly detection for industrial machinery using 3-axis vibration data, based on the MATLAB Predictive Maintenance Toolbox example. The implementation includes three different anomaly detection approaches:
+This project implements anomaly detection for industrial machinery using 3-axis vibration data, based on the MATLAB Predictive Maintenance Toolbox example. The MATLAB implementation includes three different anomaly detection approaches:
 
 1. **One-Class SVM**: Identifies abnormalities "far" from normal data
 2. **Isolation Forest**: Uses decision trees to isolate observations
@@ -19,16 +19,22 @@ This project implements anomaly detection for industrial machinery using 3-axis 
 
 ## Requirements
 
-```bash
-pip install numpy pandas matplotlib scikit-learn tensorflow h5py scipy
-```
+### MATLAB Toolboxes
+- Statistics and Machine Learning Toolbox
+- Signal Processing Toolbox  
+- Deep Learning Toolbox (optional, for autoencoder)
+- Predictive Maintenance Toolbox (optional)
 
 ## Usage
 
-Run the main script:
+Run the main MATLAB script:
 
-```bash
-python3 vibration_anomaly_detection.py
+```matlab
+% Navigate to MATLAB_Environment/src
+cd('MATLAB_Environment/src')
+
+% Execute main script
+anomaly_detection_main
 ```
 
 ## Results
@@ -73,13 +79,11 @@ The 12 extracted features capture different aspects of vibration:
 
 ## File Structure
 
-- `vibration_anomaly_detection.py`: Main implementation
-- `examine_data.py`: MATLAB data exploration script
-- `extract_matlab_data.py`: MATLAB data extraction utilities
-- `anomaly_detection_results.png`: Generated visualization
+- `MATLAB_Environment/src/anomaly_detection_main.m`: Main implementation
+- `MATLAB_Environment/functions/`: MATLAB function library
+- `MATLAB_Environment/data/`: Data directory
+- `MATLAB_Environment/results/`: Generated results and visualizations
 
 ## References
 
-- MATLAB Predictive Maintenance Toolbox: [Anomaly Detection Using 3-Axis Vibration Data](https://www.mathworks.com/help/predmaint/ug/anomaly-detection-using-3-axis-vibration-data.html)
-- Scikit-learn anomaly detection: [User Guide](https://scikit-learn.org/stable/modules/outlier_detection.html)
-- TensorFlow autoencoders: [Tutorial](https://www.tensorflow.org/tutorials/generative/autoencoder)
+- <a href="https://www.mathworks.com/help/predmaint/ug/anomaly-detection-using-3-axis-vibration-data.html" target="_blank">MATLAB Predictive Maintenance Toolbox: Anomaly Detection Using 3-Axis Vibration Data</a>
