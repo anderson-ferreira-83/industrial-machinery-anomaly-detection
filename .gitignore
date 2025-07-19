@@ -1,0 +1,55 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Zip files and archives
+*.zip
+*.rar
+*.tar.gz
+*.7z
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# MATLAB autosave files
+*.asv
+*.m~
+
+# Results and output directories
+results/
+outputs/
+logs/
+
+# Model files (optional - uncomment if you don't want to track models)
+# *.pkl
+# *.joblib
+# *.h5
+# *.pb
+
+# Data files (large datasets)
+data/large_datasets/
+*.mat
