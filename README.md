@@ -5,7 +5,7 @@ Este projeto implementa detecção de anomalias para máquinas industriais usand
 ## 📁 Estrutura do Projeto
 
 ```
- Detect Anomalies in Industrial Machinery/
+Detect Anomalies in Industrial Machinery/
 ├── MATLAB_Environment/             # Ambiente MATLAB completo
 │   ├── src/                        # Scripts principais MATLAB
 │   │   └── anomaly_detection_main.m
