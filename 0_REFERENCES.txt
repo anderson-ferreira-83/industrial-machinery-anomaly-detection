@@ -1,0 +1,1 @@
+https://www.mathworks.com/help/predmaint/ug/anomaly-detection-using-3-axis-vibration-data.html
