@@ -230,6 +230,9 @@ Contribuições são bem-vindas! Por favor:
 - [📘 MATLAB Predictive Maintenance Toolbox - Anomaly Detection](https://www.mathworks.com/help/predmaint/ug/anomaly-detection-using-3-axis-vibration-data.html)
 - [📄 Industrial Vibration Analysis Techniques](https://www.mathworks.com/help/predmaint/)
 - [🔬 Machine Learning for Predictive Maintenance](https://www.mathworks.com/solutions/predictive-maintenance.html)
+- [🔍 Anomaly Detection in Vibration Data - Part 1](https://iqunet.github.io/tutorials/blog/anomaly-detection-vibration-part1/)
+- [🔍 Anomaly Detection in Vibration Data - Part 2](https://iqunet.github.io/tutorials/blog/anomaly-detection-vibration-part2/)
+- [🔍 Anomaly Detection in Vibration Data - Part 3](https://iqunet.github.io/tutorials/blog/anomaly-detection-vibration-part3/)
 
 ---
 
