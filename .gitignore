@@ -28,6 +28,7 @@ __pycache__/
 
 # Claude Code files
 .claude/
+CLAUDE.md
 
 # Python Environment (keep only MATLAB)
 Python_Environment/
